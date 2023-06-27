@@ -223,7 +223,7 @@ def launch_app(update, context):
 
 # Функция для проверки авторизации пользователя
 def check_auth(username, password):
-    with open(os.path.join("login.txt"), "r") as file:
+    with open(os.path.join(os.path.dirname(__file__), "login.txt"), "r") as file:
         for line in file:
             saved_username, saved_password = line.strip().split(":")
             if username == saved_username and password == saved_password:
@@ -266,8 +266,14 @@ def menu(update, context):
 def login(update, context):
     user_id = update.effective_user.id
     print(f"{bcolors.OKGREEN}I:{bcolors.OKCYAN} Проверяю данные которые дал: {user_id}")
-    username = context.args[0]
-    password = context.args[1]
+    if len(context.args) > 0:
+        username = context.args[0]
+    else:
+        username = "u9fdyudfnu wyt78024tvtnv wte9867vn84672 bt64237nv5682 vb6fw8b wetfw6b6 6w     stdfs8tsyutft sdf dasd"
+    if len(context.args) > 1:
+        password = context.args[1]
+    else:
+        password = "utyafsd 7927eft dsioyf72fsd fg4 tdsyfg24867rf gads fg 2g7 gaf 2037rrgfd07usfg 27r2 gq0w7erg 07t27r 0w"
     if check_auth(username, password):
         authorized_ids.append(user_id)  # Добавляем идентификатор авторизованного пользователя в список
         context.bot.send_message(chat_id=update.effective_chat.id, text="Авторизация успешна!")
