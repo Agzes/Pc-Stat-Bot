@@ -20,9 +20,10 @@
   - [ ] ---
 
 - [ ] "Dark"
-  - [ ] ---
-  - [ ] ---
-  - [ ] ---
+  - [x] Add microphone use
+  - [x] Add recognizer
+  - [ ] AI answer
+  - [ ] Add functional for answer
 
 
 
