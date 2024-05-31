@@ -5,7 +5,7 @@
   - [x] Terminal
   - [x] Statistics
   - [x] Plugins
-  - [ ] "Dark"
+  - [x] "Dark"
   - [ ] Log
   - [ ] Settings
 
