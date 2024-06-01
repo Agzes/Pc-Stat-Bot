@@ -6,7 +6,7 @@
   - [x] Statistics
   - [x] Plugins
   - [x] "Dark"
-  - [ ] Log
+  - [x] _Panel_ - IN v.4.1
   - [ ] Settings
 
 - [ ] Telegram Bot
