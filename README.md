@@ -8,7 +8,7 @@
   - [x] "Dark"
   - [x] _Panel_ - IN v.4.1
   - [ ] Settings
-  - [ ] Themes and custom ui
+  - [ ] Themes
   - [x] Russian language support
   - [x] Notify/information window
 
