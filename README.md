@@ -13,6 +13,7 @@
   - [x] Notify/information window
 
 - [ ] Telegram Bot - IN DEV
+  - [ ] Debug/add info in Terminal  
   - [x] Support with UI 
   - [x] Music Management
   - [x] Video Management
