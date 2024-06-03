@@ -1,13 +1,13 @@
 ## V4 | IN DEV | 35% / 100%
 
-- [ ] UI
+- [x] UI - FINISED IN 1500 lines of code
   - [x] Home
   - [x] Terminal
   - [x] Statistics
   - [x] Plugins
   - [x] "Dark"
   - [x] _Panel_ - IN v.4.1
-  - [ ] Settings
+  - [x] Settings
   - [x] _Themes_ - IN v.4.1
   - [x] Russian language support
   - [x] Notify/information window
