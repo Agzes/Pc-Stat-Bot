@@ -24,12 +24,20 @@
       - [x] Eng lang support
       - [x] Rus lang support
       - [x] Change language
-    - [ ] Mouse management 
+    - [ ] Mouse management:
+      - [ ] move
+      - [ ] right/left button 
     - [x] Data management:
       - [x] Explorer in telegram
       - [x] Download from PC
       - [x] Upload on PC 
-    - [ ] AI Chat 
+    - [ ] AI Chat:
+      - [ ] set provider
+      - [ ] change chat
+      - [ ] add prompt
+      - [ ] generate image
+      - [ ] gpt3.5/gpt4.0/other model
+      - [ ] gpt-4o (50%/50%)
 
 - [ ] Discord Stat Bot
 
