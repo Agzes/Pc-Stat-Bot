@@ -12,15 +12,8 @@
   - [x] Russian language support
   - [x] Notify/information window
 
-- [ ] Telegram Bot
-  - [ ] ---
-  - [ ] ---
-  - [ ] ---
-
+- [ ] Telegram Bot - IN DEV
 - [ ] Discord Stat Bot
-  - [ ] ---
-  - [ ] ---
-  - [ ] ---
 
 - [ ] "Dark"
   - [x] Add microphone use
