@@ -20,9 +20,15 @@
   - [x] Sound Management
   - [x] Pc Management
   - [ ] Plugins:
-    - [x] KeyBoard management 
+    - [x] KeyBoard management:
+      - [x] Eng lang support
+      - [x] Rus lang support
+      - [x] Change language
     - [ ] Mouse management 
-    - [x] Data management 
+    - [x] Data management:
+      - [x] Explorer in telegram
+      - [x] Download from PC
+      - [x] Upload on PC 
     - [ ] AI Chat 
 
 - [ ] Discord Stat Bot
