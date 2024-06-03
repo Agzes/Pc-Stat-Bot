@@ -1,6 +1,6 @@
 ## V4 | IN DEV | 60% / 100%
 
-- [x] UI - FINISED IN 1500 lines of code
+- [x] UI - FINISED IN 1500 lines of code:
   - [x] Home
   - [x] Terminal
   - [x] Statistics
@@ -12,7 +12,7 @@
   - [x] Russian language support
   - [x] Notify/information window
 
-- [ ] Telegram Bot - IN DEV
+- [ ] Telegram Bot - IN DEV:
   - [ ] Debug/add info in Terminal  
   - [x] Support with UI 
   - [x] Music Management
@@ -42,7 +42,7 @@
 
 - [ ] Discord Stat Bot
 
-- [ ] "Dark"
+- [ ] "Dark":
   - [x] Add microphone use
   - [x] Add recognizer
   - [ ] AI answer
