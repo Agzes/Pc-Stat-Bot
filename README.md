@@ -1,4 +1,4 @@
-## V4 | IN DEV | 40% / 100%
+## V4 | IN DEV | 60% / 100%
 
 - [x] UI - FINISED IN 1500 lines of code
   - [x] Home
@@ -13,6 +13,18 @@
   - [x] Notify/information window
 
 - [ ] Telegram Bot - IN DEV
+  - [x] Support with UI 
+  - [x] Music Management
+  - [x] Video Management
+  - [x] Bot Management
+  - [x] Sound Management
+  - [x] Pc Management
+  - [ ] Plugins:
+    - [x] KeyBoard management 
+    - [ ] Mouse management 
+    - [x] Data management 
+    - [ ] AI Chat 
+
 - [ ] Discord Stat Bot
 
 - [ ] "Dark"
