@@ -1,4 +1,4 @@
-## V4 | IN DEV | 35% / 100%
+## V4 | IN DEV | 40% / 100%
 
 - [x] UI - FINISED IN 1500 lines of code
   - [x] Home
