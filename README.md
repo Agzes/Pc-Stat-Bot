@@ -1,5 +1,13 @@
 ## V4 | IN DEV | 60% / 100%
 
+
+![image](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/257c8711-37b4-436d-932d-829ca6612ec4)
+
+
+
+
+
+
 - [x] UI - FINISED IN 1500 lines of code:
   - [x] Home
   - [x] Terminal
@@ -54,4 +62,4 @@
 
 
 
-![image](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/257c8711-37b4-436d-932d-829ca6612ec4)
+
