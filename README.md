@@ -1,3 +1,4 @@
+![header](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/9cf32379-06c7-40bd-9d85-9ba0d5a144c2)
 ## V4 | IN DEV | 60% / 100%
 
 
