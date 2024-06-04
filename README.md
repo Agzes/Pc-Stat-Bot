@@ -7,7 +7,9 @@
 
 
 ## V4 | IN DEV | 60% / 100%
-- [x] UI - FINISED IN 1500 lines of code:
+<details><summary>✅ UI - FINISED </summary>
+  
+- [x] UI:
   - [x] Home
   - [x] Terminal
   - [x] Statistics
@@ -18,8 +20,11 @@
   - [ ] _Themes_ - IN v.4.1
   - [x] Russian language support
   - [x] Notify/information window
+</details>
 
-- [ ] Telegram Bot - IN DEV:
+<details><summary>✅ Telegram Bot - FINISED (but with out terminal msg (WIP) ) </summary>
+  
+- [x] Telegram Bot:
   - [ ] Debug/add info in Terminal  
   - [x] Support with UI 
   - [x] Music Management
@@ -39,25 +44,30 @@
       - [x] Explorer in telegram
       - [x] Download from PC
       - [x] Upload on PC 
-    - [ ] AI Chat:
+    - [x] AI Chat:
       - [x] Just Chat with gpt3.5 (duckduckgo)
       - [ ] _set provider_ - IN v.4.1
       - [ ] _add prompt_ - IN v.4.1
       - [ ] _generate image_ - IN v.4.1
       - [ ] _gpt3.5/gpt4.0/other model_ - IN v.4.1
       - [ ] _gpt-4o (50%/50%)_ - IN v.4.1
+</details>
 
+<details><summary>🛠️ PC-DS-Info_Bot - IN DEV </summary>
+  
 - [ ] PC-DS-Info_Bot (basic lvl)
   - [ ] Real Time Statistic in status
   - [ ] Real Time Statistic in "play in"
   - [ ] Some basic comand
-
+</details>
+<details><summary>🔜 "Dark" - Wait for DEV </summary>
+  
 - [ ] "Dark":
   - [x] Add microphone use
   - [x] Add recognizer
   - [ ] AI answer
   - [ ] Add functional for answer
-
+</details>
 
 
 
