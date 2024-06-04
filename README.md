@@ -6,9 +6,9 @@
   - [x] Statistics
   - [x] Plugins
   - [x] "Dark"
-  - [x] _Panel_ - IN v.4.1
+  - [ ] _Panel_ - IN v.4.1
   - [x] Settings
-  - [x] _Themes_ - IN v.4.1
+  - [ ] _Themes_ - IN v.4.1
   - [x] Russian language support
   - [x] Notify/information window
 
@@ -33,12 +33,12 @@
       - [x] Download from PC
       - [x] Upload on PC 
     - [ ] AI Chat:
-      - [ ] set provider
-      - [ ] change chat
-      - [ ] add prompt
-      - [ ] generate image
-      - [ ] gpt3.5/gpt4.0/other model
-      - [ ] gpt-4o (50%/50%)
+      - [x] Just Chat with gpt3.5 (duckduckgo)
+      - [ ] _set provider_ - IN v.4.1
+      - [ ] _add prompt_ - IN v.4.1
+      - [ ] _generate image_ - IN v.4.1
+      - [ ] _gpt3.5/gpt4.0/other model_ - IN v.4.1
+      - [ ] _gpt-4o (50%/50%)_ - IN v.4.1
 
 - [ ] Discord Stat Bot
 
