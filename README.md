@@ -40,7 +40,10 @@
       - [ ] _gpt3.5/gpt4.0/other model_ - IN v.4.1
       - [ ] _gpt-4o (50%/50%)_ - IN v.4.1
 
-- [ ] Discord Stat Bot
+- [ ] PC-DS-Info_Bot (basic lvl)
+  - [ ] Real Time Statistic in status
+  - [ ] Real Time Statistic in "play in"
+  - [ ] Some basic comand
 
 - [ ] "Dark":
   - [x] Add microphone use
