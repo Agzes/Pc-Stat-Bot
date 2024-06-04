@@ -25,9 +25,9 @@
       - [x] Eng lang support
       - [x] Rus lang support
       - [x] Change language
-    - [ ] Mouse management:
-      - [ ] move
-      - [ ] right/left button 
+    - [x] Mouse management:
+      - [x] move
+      - [x] right/left button 
     - [x] Data management:
       - [x] Explorer in telegram
       - [x] Download from PC
