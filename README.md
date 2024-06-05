@@ -53,14 +53,14 @@
       - [ ] _gpt-4o (50%/50%)_ - IN v.4.1
 </details>
 
-<details><summary>🛠️ PC-DS-Info_Bot - IN DEV </summary>
+<details><summary>🔴 PC-DS-Info_Bot - SKIPED (wait in v.4.1) </summary>
   
 - [ ] PC-DS-Info_Bot (basic lvl)
   - [ ] Real Time Statistic in status
   - [ ] Real Time Statistic in "play in"
   - [ ] Some basic comand
 </details>
-<details><summary>🔜 "Dark" - Wait for DEV </summary>
+<details><summary>🛠️ "Dark" - in DEV </summary>
   
 - [ ] "Dark":
   - [x] Add microphone use
