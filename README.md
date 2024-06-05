@@ -7,7 +7,7 @@
 
 
 ## V4 | IN DEV | 63% / 100%
-<details><summary>✅ UI - FINISED </summary>
+<details><summary>✅ UI - FINISHED </summary>
   
 - [x] UI:
   - [x] Home
@@ -22,7 +22,7 @@
   - [x] Notify/information window
 </details>
 
-<details><summary>✅ Telegram Bot - FINISED (but with out terminal msg (WIP) ) </summary>
+<details><summary>✅ Telegram Bot - FINISHED (but with out terminal msg (WIP) ) </summary>
   
 - [x] Telegram Bot:
   - [ ] Debug/add info in Terminal  
