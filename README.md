@@ -6,7 +6,7 @@
 
 
 
-## V4 | IN DEV | 63% / 100%
+## V4 | IN DEV | 75% / 100%
 <details><summary>✅ UI - FINISHED </summary>
   
 - [x] UI:
