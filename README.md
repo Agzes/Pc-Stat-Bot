@@ -6,7 +6,7 @@
 
 
 
-## V4 | IN DEV | 75% / 100%
+## V4 | IN DEV | 85% / 100%
 <details><summary>✅ UI - FINISHED </summary>
   
 - [x] UI:
@@ -63,10 +63,11 @@
 <details><summary>🛠️ "Dark" - in DEV </summary>
   
 - [ ] "Dark":
+  - [ ] final lines
   - [x] Add microphone use
   - [x] Add recognizer
-  - [ ] AI answer
-  - [ ] Add functional for answer
+  - [x] AI answer
+  - [x] Add functional for answer
 </details>
 
 
