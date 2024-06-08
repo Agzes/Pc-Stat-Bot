@@ -1,5 +1,5 @@
 
-# ⚠️Warning: At the moment, only the pre-version is available, which implements only the basic functionality of the program [this project very unstable]
+
 
 ![header](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/9cf32379-06c7-40bd-9d85-9ba0d5a144c2)
 ![Main](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/577139b8-ad7e-48af-a628-cf466aeb305c)
@@ -7,42 +7,6 @@
 
 
 ## V4 | IN DEV | 90% / 100%
-## Pre-Release information:
-<details><summary>About > </summary>
-
----
-### UI:
-* Home
-* Terminal
-* Plugins
-* "Dark" - very simpl level (just chat with duckduckgo ai)
-* Settings
-* RU Language support
-### Telegram bot:
-/* full from V3 */
-* Support with UI 
-* Music Management
-* Video Management
-* Bot Management
-* Sound Management
-* Pc Management
-* Plugins: 
-  * KeyBoard management:
-    * Eng lang support
-    * Rus lang support
-    * Change language
-  * Mouse management:
-    * move
-    * right/left button 
-  * Data management:
-    * Explorer in telegram
-    * Download from PC
-    * Upload on PC 
-* AI Chat: Just Chat with gpt3.5 (duckduckgo)
-### "Dark" - just duckduckgo AI
----
-
-</details>
 
 ---
 <details><summary>✅ UI - FINISHED </summary>
