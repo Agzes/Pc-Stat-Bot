@@ -1,8 +1,8 @@
+
+# ⚠️Warning: At the moment, only the pre-version is available, which implements only the basic functionality of the program [this project very unstable]
+
 ![header](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/9cf32379-06c7-40bd-9d85-9ba0d5a144c2)
 ![Main](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/577139b8-ad7e-48af-a628-cf466aeb305c)
-
-
-# ⚠️Warning: this project very unstable
 
 
 
