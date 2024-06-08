@@ -6,7 +6,7 @@
 
 
 
-## V4 | IN DEV | 85% / 100%
+## V4 | IN DEV | 90% / 100%
 <details><summary>✅ UI - FINISHED </summary>
   
 - [x] UI:
@@ -60,7 +60,7 @@
   - [ ] Real Time Statistic in "play in"
   - [ ] Some basic comand
 </details>
-<details><summary>🛠️ "Dark" - in DEV </summary>
+<details><summary>🛠️ "Dark" alpha - in DEV </summary>
   
 - [ ] "Dark":
   - [ ] final lines
