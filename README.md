@@ -4,9 +4,6 @@
 ![header](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/9cf32379-06c7-40bd-9d85-9ba0d5a144c2)
 ![Main](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/577139b8-ad7e-48af-a628-cf466aeb305c)
 
-
-# Pre-Release in ??.06.2024 (. ❛ ᴗ ❛.)
-# Release in ??.07.2024 (. ❛ ᴗ ❛.)
 ## V4 | IN DEV | 90% / 100%
 
 ---
