@@ -5,7 +5,16 @@
 ![Main](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/577139b8-ad7e-48af-a628-cf466aeb305c)
 
 ## V4 | IN DEV | 90% / 100%
+---
+``` 
+Pre-Release plans ⬎
+```
+1 | Publish Pre-Release until 10 July | 🔴  \
+2 | Made beta version of "Dark" | 🔴 \
+3 | Made Debug for telegram | 🔴 
+``` 
 
+```
 ---
 <details><summary>✅ UI - FINISHED </summary>
   
