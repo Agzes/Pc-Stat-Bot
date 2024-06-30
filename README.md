@@ -10,7 +10,7 @@
 Pre-Release plans ⬎
 ```
 1 | Publish Pre-Release until 10 July | 🔴  \
-2 | Make beta version of "Dark" | 🟡 \
+2 | Make beta version of "Dark" | ✅ \
 3 | Make debug for telegram | 🔴 \
 4 | Make file checker for start
 ``` 
@@ -70,10 +70,10 @@ Pre-Release plans ⬎
   - [ ] Real Time Statistic in "play in"
   - [ ] Some basic comand
 </details>
-<details><summary>🛠️ "Dark" alpha - in DEV </summary>
+<details><summary>✅ "Dark" alpha - FINISHED </summary>
   
-- [ ] "Dark":
-  - [ ] final lines
+- [x] "Dark":
+  - [x] final lines
   - [x] Add microphone use
   - [x] Add recognizer
   - [x] AI answer
