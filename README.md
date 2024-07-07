@@ -4,7 +4,7 @@
 ![header](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/9cf32379-06c7-40bd-9d85-9ba0d5a144c2)
 ![Main](https://github.com/Agzes/Pc-Stat-Bot/assets/103037173/577139b8-ad7e-48af-a628-cf466aeb305c)
 
-## V4 | IN DEV | 90% / 100%
+## BETA V4 stable -> in dev
 ---
 ``` 
 Pre-Release plans ⬎
