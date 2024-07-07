@@ -17,6 +17,32 @@ Pre-Release plans ⬎
 
 ```
 ---
+``` 
+RoadMap [v.4.1.0] ⬎
+```
+⌚ -> not started \
+❌ -> cancelled \
+✅ -> done 
+
+🟢 -> Easy \
+🟡 -> So-so \
+🔴 -> Hard \
+⚪ -> unknown 
+
+---
+
+⌚ | Panel | 🔴 \
+⌚ | Themes | 🟡 \
+⌚ | Linus Support | ⚪ \
+⌚ | MacOS 11+ Support | ⚪ \
+⌚ | Custom AI for Dark | ⚪ \
+⌚ | Improve "Dark" | 🔴 \
+```
+ 
+```
+
+
+---
 <details><summary>✅ UI - FINISHED </summary>
   
 - [x] UI:
