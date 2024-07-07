@@ -11,7 +11,7 @@ Pre-Release plans ⬎
 ```
 1 | Publish Pre-Release until 10 July | 🔴  \
 2 | Make alpha version of "Dark" | ✅ \
-3 | Make debug for telegram | ✅ \
+3 | Make debug for telegram | ✅ 
 ``` 
 
 ```
