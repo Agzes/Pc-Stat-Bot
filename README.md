@@ -33,6 +33,7 @@ RoadMap [v.4.1.0] ⬎
 
 ⌚ | Panel | 🔴 \
 ⌚ | Themes | 🟡 \
+⌚ | Use [Vosk-Api](https://github.com/alphacep/vosk-api) for voice recognizer | 🟡 \
 ⌚ | Linus Support | ⚪ \
 ⌚ | MacOS 11+ Support | ⚪ \
 ⌚ | Custom AI for Dark | ⚪ \
