@@ -36,7 +36,7 @@ RoadMap [v.4.1.0] ⬎
 ⌚ | Linus Support | ⚪ \
 ⌚ | MacOS 11+ Support | ⚪ \
 ⌚ | Custom AI for Dark | ⚪ \
-⌚ | Improve "Dark" | 🔴 \
+⌚ | Improve "Dark" | 🔴 
 ```
  
 ```
