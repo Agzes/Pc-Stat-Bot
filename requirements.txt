@@ -1,0 +1,17 @@
+dearpygui
+g4f
+curl_cffi
+annotated_types
+mistletoe
+playsound==1.2.2
+psutil
+GPUtil
+pynvml
+pyTelegramBotAPI
+keyboard
+PyAutoGUI
+SpeechRecognition
+pygments
+PyAudio
+requests
+tqdm
