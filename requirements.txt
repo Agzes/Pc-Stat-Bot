@@ -15,4 +15,3 @@ pygments
 PyAudio
 requests
 tqdm
-decimal
