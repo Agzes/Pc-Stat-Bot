@@ -1,7 +1,13 @@
 import concurrent.futures
 import psutil
 import GPUtil
+import platform
+import pynvml
+from datetime import datetime
 
+
+
+" FOR APP "
 class SystemInfo:
     def __init__(self):
         pass
@@ -62,3 +68,66 @@ class SystemInfo:
             "gpu": gpu_info[0]['load'] if gpu_info else None,
             "gpu_info": gpu_details
         }
+
+" FOR TELEGRAM BOT "
+def get_system_info():
+    try:
+        pynvml.nvmlInit()
+        nvml_load = True
+    except:  # noqa: E722
+        pass
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    os_info = platform.system()
+    operating_system_version = platform.release()
+    cpu_percent = psutil.cpu_percent()
+    memory = psutil.virtual_memory()
+    memory_usage = memory.used / (1024 ** 3)
+    total_memory = memory.total / (1024 ** 3)
+    memory_have = total_memory - memory_usage
+    if nvml_load is True:
+        device_count = pynvml.nvmlDeviceGetCount()
+        for i in range(device_count):
+            handle = pynvml.nvmlDeviceGetHandleByIndex(i)
+            gpu_info = pynvml.nvmlDeviceGetUtilizationRates(handle)
+            gpu_load = gpu_info.gpu
+    message_info_rus = "| Pc-Stat-Bot |"
+    message_info_rus += "| ЦП:\n"
+    cpu_usage = "\n".join(
+        f"|    Ядро {i+1}: {l}%" for i, l in enumerate(psutil.cpu_percent(percpu=True)))  # noqa: E741
+    message_info_rus += cpu_usage
+    message_info_rus += f"\n|    ЦП: {cpu_percent}%\n|\n"
+    message_info_rus += "| Память:\n"
+    message_info_rus += f"|    Занято/Всего: {memory_usage:.2f} ГБ / {total_memory:.2f} ГБ\n"
+    message_info_rus += f"|    Занято: {memory_usage:.2f} ГБ\n"
+    message_info_rus += f"|    Свободно: {memory_have:.2f} ГБ\n"
+    message_info_rus += f"|    Всего: {total_memory:.2f} ГБ\n|\n"
+    message_info_rus += "| Прочее:\n"
+    if nvml_load is True:
+        message_info_rus += f"|    ГП: {gpu_load}%\n"
+    else:
+        message_info_rus += "|    ГП: Ошибка - GPU_1\n"
+    message_info_rus += f"|    Время: {current_time}\n"
+    message_info_rus += f"|    ОС: {os_info} {operating_system_version}\n|\n"
+    message_info_rus += "| Pc-Stat-Bot |"
+
+    message_info_eng = "| Pc-Stat-Bot |"
+    message_info_eng += "| Cpu:\n"
+    cpu_usage = "\n".join(
+        f"|    Core {i}: {l}%" for i, l in enumerate(psutil.cpu_percent(percpu=True)))  # noqa: E741
+    message_info_eng += cpu_usage
+    message_info_eng += f"\n|    Cpu: {cpu_percent}%\n|\n"
+    message_info_eng += "| Memory:\n"
+    message_info_eng += f"|    Occupied/Occupied: {memory_usage:.2f} GB / {total_memory:.2f} GB\n"
+    message_info_eng += f"|    Occupied: {memory_usage:.2f} GB\n"
+    message_info_eng += f"|    Free: {memory_have:.2f} GB\n"
+    message_info_eng += f"|    Total: {total_memory:.2f} GB\n|\n"
+    message_info_eng += "| Other:\n"
+    if nvml_load is True:
+        message_info_eng += f"|    GPU: {gpu_load}%\n"
+    else:
+        message_info_eng +=  "|    GPU: Error - GPU_1\n"
+    message_info_eng += f"|    Time: {current_time}\n"
+    message_info_eng += f"|    OS: {os_info} {operating_system_version}\n|\n"
+    message_info_eng += "| Pc-Stat-Bot |"
+
+    return message_info_eng, message_info_rus
