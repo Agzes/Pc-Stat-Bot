@@ -1,0 +1,37 @@
+{
+    "dark": {
+        "dark_on": false
+    },
+    "main": {
+        "is_main_autoinformation": false,
+        "is_main_autoscreen": false,
+        "main_autoscreen_time": 0,
+        "main_autosinformation_time": 0,
+        "main_id": "",
+        "main_language": "en",
+        "main_login": "",
+        "main_name": "",
+        "main_password": "",
+        "main_token": "",
+        "main_token_ds": "",
+        "main_webhook": ""
+    },
+    "plugins": {
+        "dark": {
+            "ai_function_for_dark": false
+        },
+        "other": {
+            "monitoring_pc_other": false
+        },
+        "telegram": {
+            "ai_function_for_telegram": false,
+            "data_function_for_telegram": false,
+            "keyboard_move_for_telegram": false,
+            "mouse_move_for_telegram": false
+        }
+    },
+    "statistics": {
+        "auto_update_statistics": false,
+        "auto_update_statistics_time": 1
+    }
+}
