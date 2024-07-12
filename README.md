@@ -22,6 +22,7 @@ RoadMap [v.4.1.0] ⬎
 
 ---
 
+⌚ | Improve Installer | ⚪ \
 ⌚ | Panel | 🔴 \
 ⌚ | Portable Version | 🟡 \
 ⌚ | Themes | 🟡 \
