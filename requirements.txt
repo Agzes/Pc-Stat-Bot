@@ -14,4 +14,3 @@ SpeechRecognition
 pygments
 PyAudio
 requests
-tqdm
