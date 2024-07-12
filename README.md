@@ -9,7 +9,7 @@
 ---
 
 ``` 
-RoadMap [v.4.1.0] ⬎
+RoadMap ⬎
 ```
 ⌚ -> not started \
 ❌ -> cancelled \
