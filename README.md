@@ -7,6 +7,7 @@
 <a href="https://github.com/Agzes/Pc-Stat-Bot/releases" target="_blank">
    <img src="https://github.com/user-attachments/assets/1f3b87b4-1081-4f39-ab59-f488ebb50e3c" alt="main"/>
 </a>
+
 ## Warning: if program UI don`t show, kill process "Pc-Stat-Bot" in taskmgr and try run again! 
 **BETA V4 stable -> in dev**
 
