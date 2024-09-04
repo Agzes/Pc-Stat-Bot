@@ -9,7 +9,8 @@
 </a>
 
 ## Warning: if program UI don`t show, kill process "Pc-Stat-Bot" in taskmgr and try run again! 
-**BETA V4 stable -> in dev**
+**BETA V4 stable -> 50/100% -**
+at the moment, the work of the UI is well established, as well as the operability of some modules
 
 
 ``` 
