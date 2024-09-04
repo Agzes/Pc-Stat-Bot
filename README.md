@@ -32,7 +32,7 @@ RoadMap ⬎
 ⌚ | Portable Version | 🟡 \
 ⌚ | Themes | 🟡 \
 ⌚ | Use [Vosk-Api](https://github.com/alphacep/vosk-api) for voice recognizer | 🟡 \
-⌚ | Linus Support | ⚪ \
+⌚ | Linux Support | ⚪ \
 ⌚ | MacOS 11+ Support | ⚪ \
 ⌚ | Custom AI for Dark | ⚪ \
 ⌚ | Improve "Dark" | 🔴 
