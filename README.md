@@ -9,8 +9,8 @@
 </a>
 
 ## Warning: if program UI don`t show, kill process "Pc-Stat-Bot" in taskmgr and try run again! 
-**BETA V4 stable -> 85/100% -**
-at the moment, the work of the UI is well established. Working on translates.
+**BETA V4 stable -> 95/100% -**
+at the moment, the work of the UI is well established. Final steps!
 
 
 ``` 
