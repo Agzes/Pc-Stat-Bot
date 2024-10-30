@@ -1,7 +1,6 @@
 """ ----------------------------- """
 """ ---- BETA V4 PC-STAT-BOT ---- """
 """ ----------------------------- """
-
 import dearpygui.dearpygui as dpg
 import libs.dpg_animations as dpg_animations
 import libs.dpg_animator.dearpygui_animate as dpg_animator
@@ -28,7 +27,6 @@ window_effect = WindowsWindowEffect()
 def close():
     dpg.destroy_context()
     sys.exit(0)
-
 def to_cyr(data_no_cyr):  
   out = [] 
   for i in range(0, len(data_no_cyr)):  
@@ -37,7 +35,6 @@ def to_cyr(data_no_cyr):
       else:
           out.append(data_no_cyr[i])  
   return ''.join(out) 
-
 def close_after_install():
     dpg.destroy_context()
     try:
@@ -51,7 +48,7 @@ def get_file_size(size_url):
     if response.status_code == 200:
         return float(response.text)
     else:
-        return 60.8
+        return 63.5
 def download_file(url, dest_folder, file_size):
     filename = "pc-stat-bot_latest.zip"
     filepath = os.path.join(dest_folder, filename)
@@ -81,7 +78,7 @@ def main():
     file_size_url = "https://raw.githubusercontent.com/Agzes/Pc-Stat-Bot/main/Installer/size" 
     file_url = "https://agzes.netlify.app/pc-stat-bot/pc-stat-bot_latest.zip"
     download_folder = ""
-    extract_folder = "./pc-stat-bot"
+    extract_folder = "./"
     dpg.set_item_label("download_label", "receive file size")
     file_size = get_file_size(file_size_url)
     dpg.set_item_label("download_label", f'"pc-stat-bot_latest.zip" size: {file_size}')
@@ -136,6 +133,7 @@ def check_for_latest_ver():
     if response.status_code == 200:
         response.text
         dpg.set_item_label("download_label_latest_ver", f"Last Version: {response.text}")
+
 with dpg.theme() as transparent_button_for_text_in_center:
     with dpg.theme_component():
         dpg.add_theme_color(dpg.mvThemeCol_Button, [0, 0, 0, 0])
@@ -150,30 +148,53 @@ with dpg.theme() as border_with_transparent_button_for_text_element:
 with dpg.theme() as border_to_element:
     with dpg.theme_component():
             dpg.add_theme_style(dpg.mvStyleVar_FrameBorderSize, 1, category=dpg.mvThemeCat_Core)
+
 with dpg.window(label="Pc-Stat-Bot", pos=(0,0), height=300, width=500, no_title_bar=True, no_resize=True, no_close=True, tag="UI", no_background=False, no_move=True, show=True, no_scroll_with_mouse=True, no_scrollbar=True):
-    with dpg.child_window(height=25, no_scrollbar=True, no_scroll_with_mouse=True, width=454):
-        dpg.add_button(label="[Beta V4] Pc-Stat-Bot | Installer [v.1.0.1]",  pos=(7,2), width=440)
+    with dpg.child_window(height=25, no_scrollbar=True, no_scroll_with_mouse=True, width=454, tag="cw_name_label"):
+        dpg.add_button(label="[Beta V4] Pc-Stat-Bot | Installer [v.1.1.0]",  pos=(7,2), width=440, tag="name_label")
         dpg.bind_item_theme(dpg.last_item(), transparent_button_for_text_in_center)
-    dpg.add_button(label="x",  pos=(467,8), width=25, height=25, callback=close)
+    dpg.add_button(label="X",  pos=(467,8), width=25, height=25, callback=close,tag="close_button")
     dpg.bind_item_theme(dpg.last_item(), border_with_transparent_button_for_text_element)
-    with dpg.child_window(height=25, no_scrollbar=True, no_scroll_with_mouse=True,  pos=(7,115)):
+    with dpg.child_window(height=25, no_scrollbar=True, no_scroll_with_mouse=True,  pos=(7,115), tag="cw_download_label"):
         dpg.add_button(label="Click on the button below to install Pc-Stat-Bot",  pos=(7,2), width=456, tag="download_label")
         dpg.bind_item_theme(dpg.last_item(), transparent_button_for_text_in_center)
 
-    with dpg.child_window(height=25, no_scrollbar=True, no_scroll_with_mouse=True,  pos=(7,145)):
+    with dpg.child_window(height=25, no_scrollbar=True, no_scroll_with_mouse=True,  pos=(7,145),tag="cw_download_label_ver"):
         dpg.add_button(label="Last Version: loading",  pos=(7,2), width=456, tag="download_label_latest_ver")
         dpg.bind_item_theme(dpg.last_item(), transparent_button_for_text_in_center)
     dpg.add_progress_bar(default_value=0,height=25,width=484, show=False,  pos=(7,145), tag="download_progress")
     dpg.bind_item_theme(dpg.last_item(), border_to_element)
     dpg.add_button(label="Install", tag="install_button", pos=(7,267), width=485, height=25, callback=lambda: threading.Thread(target=main).start())
     dpg.bind_item_theme(dpg.last_item(), border_with_transparent_button_for_text_element)
+
+dpg_animator.add("position", "cw_name_label",             [8,8],   [7,-100], [.23, .07, .53, 1], 1)
+dpg_animator.add("position", "close_button",              [467,8], [7,-100], [.23, .07, .53, 1], 1)
+dpg_animator.add("position", "cw_download_label",         [7,115], [7,-100], [.23, .07, .53, 1], 1)
+dpg_animator.add("position", "cw_download_label_ver",     [7,145], [7, 400], [.23, .07, .53, 1], 1)
+dpg_animator.add("position", "download_progress",         [7,145], [7, 400], [.23, .07, .53, 1], 1)
+dpg_animator.add("position", "install_button",            [7,267], [7, 400], [.23, .07, .53, 1], 1)
+dpg_animator.run()
+
+dpg_animator.add("position", "cw_name_label",             [7,-100], [8,8],   [.23, .07, .53, 1], 90)
+dpg_animator.add("position", "close_button",              [7,-100], [467,8], [.23, .07, .53, 1], 90)
+dpg_animator.add("position", "cw_download_label",         [7,-100], [7,115], [.23, .07, .53, 1], 90)
+dpg_animator.add("position", "cw_download_label_ver",     [7, 400], [7,145], [.23, .07, .53, 1], 90)
+dpg_animator.add("position", "download_progress",         [7, 400], [7,145], [.23, .07, .53, 1], 90)
+dpg_animator.add("position", "install_button",            [7, 400], [7,267], [.23, .07, .53, 1], 90)
+
 dpg.bind_theme(dpg_theme.initialize())
 dpg.set_frame_callback(20, Init_After_UI_Init)
 dpg.create_viewport(title="Pc-Stat-Bot | Installer", width=500, height=300, decorated=False, resizable=False, clear_color=[0, 0, 0, 0])
 dpg.setup_dearpygui()
 dpg.show_viewport()
+desired_fps = 61 
+frame_time = 1.0 / desired_fps 
 while dpg.is_dearpygui_running():
-    dpg_animator.run()
-    dpg_animations.update()
-    dpg.render_dearpygui_frame()
+    dpg_animator.run() 
+    dpg_animations.update() 
+    start_time = time.time()
+    dpg.render_dearpygui_frame() 
+    elapsed_time = time.time() - start_time 
+    time_to_sleep = max(frame_time - elapsed_time, 0) 
+    time.sleep(time_to_sleep)
 dpg.destroy_context()
