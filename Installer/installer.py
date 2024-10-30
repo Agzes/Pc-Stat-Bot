@@ -44,7 +44,7 @@ def close_after_install():
     sys.exit(0)
 def get_file_size(size_url):
     response = requests.get(size_url)
-    response.raise_for_status()
+    response.raise_for_status() 
     if response.status_code == 200:
         return float(response.text)
     else:
