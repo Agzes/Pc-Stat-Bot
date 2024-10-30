@@ -11,6 +11,7 @@ import os
 import playsound
 import time as time
 from g4f import client
+from lang.load import load_dark_translation
 
 @staticmethod
 def darksoundaction():
@@ -35,28 +36,28 @@ class func_for_dark:
     def prev_track():
         pyautogui.press('prevtrack')
         darksoundaction()
-    def open_brouser():
+    def open_browser():
         webbrowser.open("https://www.google.com")
         darksoundaction()
     def click_enter():
         pyautogui.press('enter')
         darksoundaction()
-    def open_faceebook():
+    def open_facebook():
         webbrowser.open("https://www.facebook.com")
         darksoundaction()
     def open_yandex():
         webbrowser.open("https://yandex.com")
         darksoundaction()
-    def open_twutter():
+    def open_twitter():
         webbrowser.open("https://twitter.com")
         darksoundaction()
-    def open_instalgram():
+    def open_instagram():
         webbrowser.open("https://www.instagram.com")
         darksoundaction()
     def open_amazon():
         webbrowser.open("https://www.amazon.com")
         darksoundaction()
-    def open_nerflix():
+    def open_netflix():
         webbrowser.open("https://www.netflix.com")
         darksoundaction()
     def open_reddit():
@@ -98,7 +99,7 @@ class func_for_dark:
     def show_explorer():
         subprocess.call('explorer')
         darksoundaction()
-    def close_windoww():
+    def close_window():
         pyautogui.hotkey('alt', 'f4')
         darksoundaction()
     def hibernation_pc():
@@ -155,6 +156,7 @@ class func_for_dark:
         mesage = response.choices[0].message.content
 
 def dark_answer(command, lang, itsvoice=False, plugin_ai=False):
+    dark_translates = load_dark_translation(lang)
     command = command.lower()
     if "dark" in command or itsvoice is False:
         dark_check_ = False
@@ -163,10 +165,10 @@ def dark_answer(command, lang, itsvoice=False, plugin_ai=False):
             return command
         if any(keyword in command for keyword in ("привет","hi","hello")):
             dark_check_ = True
-            return "Привет!" if lang == "ru" else "Hi!"
+            return dark_translates["hi"]
         if any(keyword in command for keyword in ("пока","bye","goodbye")):
             dark_check_ = True
-            return "Пока!" if lang == "ru" else "Bye!"
+            return dark_translates["bye"]
         if any(keyword in command for keyword in ("пауза","stop","pause","start","turn","disable","enable","включи","останови")):
             threading.Thread(target=func_for_dark.play_pause_track).start()
             dark_check_ = True
@@ -179,7 +181,7 @@ def dark_answer(command, lang, itsvoice=False, plugin_ai=False):
             threading.Thread(target=func_for_dark.next_track).start()
             dark_check_ = True
             return "processed_status_200"
-        if any(keyword in command for keyword in ("cкрин", "скриншот", "screen", "screenshot", "cнимок")):
+        if any(keyword in command for keyword in ("cкрин", "скриншот", "screen", "screenshot", "снимок")):
             threading.Thread(target=func_for_dark.screen_shot).start()
             dark_check_ = True
             return "processed_status_200"
@@ -187,8 +189,8 @@ def dark_answer(command, lang, itsvoice=False, plugin_ai=False):
             threading.Thread(target=func_for_dark.open_vk).start()
             dark_check_ = True
             return "processed_status_200"
-        if any(keyword in command for keyword in ("браузер", "brouser")):
-            threading.Thread(target=func_for_dark.open_brouser).start()
+        if any(keyword in command for keyword in ("браузер", "browser")):
+            threading.Thread(target=func_for_dark.open_browser).start()
             dark_check_ = True
             return "processed_status_200"
         if any(keyword in command for keyword in ("твич", "twitch", "твитч")):
@@ -212,7 +214,7 @@ def dark_answer(command, lang, itsvoice=False, plugin_ai=False):
             dark_check_ = True
             return "processed_status_200"
         if any(keyword in command for keyword in ("facebook", "фейсбук")):
-            threading.Thread(target=func_for_dark.open_faceebook).start()
+            threading.Thread(target=func_for_dark.open_facebook).start()
             dark_check_ = True
             return "processed_status_200"
         if any(keyword in command for keyword in ("yandex", "яндекс")):
@@ -220,7 +222,7 @@ def dark_answer(command, lang, itsvoice=False, plugin_ai=False):
             dark_check_ = True
             return "processed_status_200"
         if any(keyword in command for keyword in ("instagram", "инстаграмм", "инста")):
-            threading.Thread(target=func_for_dark.open_instalgram).start()
+            threading.Thread(target=func_for_dark.open_instagram).start()
             dark_check_ = True
             return "processed_status_200"
         if any(keyword in command for keyword in ("amazon", "амазон")):
@@ -228,7 +230,7 @@ def dark_answer(command, lang, itsvoice=False, plugin_ai=False):
             dark_check_ = True
             return "processed_status_200"
         if any(keyword in command for keyword in ("netflix", "нетфликс")):
-            threading.Thread(target=func_for_dark.open_nerflix).start()
+            threading.Thread(target=func_for_dark.open_netflix).start()
             dark_check_ = True
             return "processed_status_200"
         if any(keyword in command for keyword in ("reddit", "редит", "реддит")):
@@ -272,10 +274,10 @@ def dark_answer(command, lang, itsvoice=False, plugin_ai=False):
             dark_check_ = True
             return "processed_status_200"
         if any(keyword in command for keyword in ("закрой", "close")) and any(keyword in command for keyword in ("окно","windows","window","program","app","программу","приложение")):
-            threading.Thread(target=func_for_dark.close_windoww).start()     
+            threading.Thread(target=func_for_dark.close_window).start()     
             dark_check_ = True
             return "processed_status_200"
-        if any(keyword in command for keyword in ("спящий","гибернации","гебернация","сна","сон","hibernation","sleep")):
+        if any(keyword in command for keyword in ("спящий","гибернации","гибернация","сна","сон","hibernation","sleep")):
             threading.Thread(target=func_for_dark.hibernation_pc).start()   
             dark_check_ = True
             return "processed_status_200" 
@@ -283,7 +285,7 @@ def dark_answer(command, lang, itsvoice=False, plugin_ai=False):
             threading.Thread(target=func_for_dark.restart_pc).start()    
             dark_check_ = True
             return "processed_status_200"
-        if any(keyword in command for keyword in ("пк","компьютер","computer","pc")) and any(keyword in command for keyword in ("выключи","выкючение","завершение работы","turn off","shutdown")):
+        if any(keyword in command for keyword in ("пк","компьютер","computer","pc")) and any(keyword in command for keyword in ("выключи","выключение","завершение работы","turn off","shutdown")):
             threading.Thread(target=func_for_dark.shut_down_pc).start()     
             dark_check_ = True
             return "processed_status_200"  
@@ -317,6 +319,6 @@ def dark_answer(command, lang, itsvoice=False, plugin_ai=False):
             return "processed_status_200"
         else:
             if itsvoice is False:
-                return "Команда или речь не распознана :c" if lang == "ru" else "Command or speech is not recognized :c"
+                return dark_translates["not_recognized"]
     else:
         return "null_status_200"
