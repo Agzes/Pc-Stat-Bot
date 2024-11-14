@@ -1,4 +1,4 @@
-dearpygui
+dearpygui==1.11.0
 g4f
 curl_cffi
 annotated_types
