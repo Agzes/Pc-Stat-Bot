@@ -34,8 +34,8 @@ RoadMap ⬎
 ---
 
 ⌚ | Improve Installer | ⚪ \
-⌚ | Panel | 🔴 \
-⌚ | Portable Version | 🟡 \
+ ⌚ |Panel | 🔴 \
+⌚ |<s> Portable Version  </s> | Move data and other folder to exe | 🟢 \
 ⌚ | Themes | 🟡 \
 ⌚ | Use [Vosk-Api](https://github.com/alphacep/vosk-api) for voice recognizer | 🟡 \
 ⌚ | Linux Support | ⚪ \
