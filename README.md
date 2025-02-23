@@ -1,5 +1,5 @@
 
-
+<h6 align="center">⚫ next gen of pc-stat-bot in dev...</h6>
 
 <a href="https://agzes.netlify.app/pc-stat-bot/" target="_blank" width="1000">
    <img src="https://github.com/Agzes/Pc-Stat-Bot/blob/main/ReadMe/header-pc-stat-bot.png" width="1000" alt="header"/>
