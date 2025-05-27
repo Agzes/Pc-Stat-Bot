@@ -16,40 +16,7 @@
 
 </h3>
 
-
 ---
 
-``` 
-RoadMap ⬎
-```
-⌚ -> not started \
-❌ -> cancelled \
-✅ -> done 
-
-🟢 -> Easy \
-🟡 -> So-so \
-🔴 -> Hard \
-⚪ -> unknown 
-
----
-
-⌚ | Improve Installer | ⚪ \
- ⌚ |Panel | 🔴 \
-⌚ |<s> Portable Version  </s> | Move data and other folder to exe | 🟢 \
-⌚ | Themes | 🟡 \
-⌚ | Use [Vosk-Api](https://github.com/alphacep/vosk-api) for voice recognizer | 🟡 \
-⌚ | Linux Support | ⚪ \
-⌚ | MacOS 11+ Support | ⚪ \
-⌚ | Custom AI for Dark | ⚪ \
-⌚ | Improve "Dark" | 🔴 
-```
- 
-```
-
-
----
-
-
-
-<br><br><br><br>
+<br>
 <h6 align="center">v. beta-4.0.0 <br> Made with 💟 by Agzes</h6>
