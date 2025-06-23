@@ -1,5 +1,8 @@
+<div align="center">
+   
+![image](https://github.com/user-attachments/assets/e9662a4e-0853-443e-b866-fe99e1caf0aa)
 
-<h6 align="center">🚧</h6>
+<br>
 
 <a href="https://agzes.netlify.app/pc-stat-bot/" target="_blank" width="1000">
    <img src="https://github.com/Agzes/Pc-Stat-Bot/blob/main/ReadMe/header-pc-stat-bot.png" width="1000" alt="header"/>
